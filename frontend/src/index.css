@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg-dark text-white;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-bg-card border border-gray-700 rounded-lg;
+  }
+  
+  .stat-card {
+    @apply card p-6;
+  }
+  
+  .btn-primary {
+    @apply bg-accent text-primary font-bold px-6 py-2 rounded-lg hover:brightness-110 transition-all;
+  }
+}
